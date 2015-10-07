@@ -1,0 +1,13 @@
+$(function(){
+    $("#firstmessage").fadeIn(2000,function(){
+        $("#secondmessage").fadeIn(2000,function(){
+            $("#thirdmessage").fadeIn(3000,function(){
+                $(".hider").fadeOut(2000,function(){
+                    $("#first").show(function(){
+                        $(".nothidecontents").fadeIn(5000)
+                    ;});
+                });
+            });
+        });
+    });
+});

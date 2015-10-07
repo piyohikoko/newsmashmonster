@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.nothidecontents{
+    display:none;
+}
+
+/* 背景写真 */
+
+#lefttop{position: absolute;left:0px;top:0px;}
+#righttop{position: absolute;left: 1000px;top:0px;}
+#center{position:absolute; left:590px;top:200px;}
+
+/* タイトルのスタイル */
+.title{position: absolute; left: 0px; top: 250px; color: white; font-size: 100px; font-family: Impact,Charcoal;}
+#ichi{font-size: 150px; font-style: oblique;}
+#ni{position: relative; left: 380px; top: -80px; font-size: 150px; font-style: oblique;}
+#first{font-size:250px; color:red; display:none ; font-style: oblique; font-family: Impact,Charcoal }
+.extra{font-size:30px; position: absolute; left: 20px; top: 300px; font-family:Arial Black;}
+#subtitle{font-size:40px; position: relative; top: -213px; left: 10px; font-family:Arial Black;}
+
+/* プロフィール写真の配置 */
+#tanaka{position:absolute;top:188.78870640308px; left:248.365938987961px;}
+#okita{position:absolute;top:88.2457910052331px; left:356.921776954386px;}
+#amano{position:absolute;top:25.5153576190158px; left:517.157084316134px;}
+#kotani{position:absolute;top:11.2939039332462px; left:701.749292068947px;}
+#takatsu{position:absolute;top:48.0064051676057px; left:879.222607411504px;}
+#maniwa{position:absolute;top:129.392818733415px; left:1019.31511750636px;}
+#ogawa{position:absolute;top:241.575517175942px; left:1098.13890815366px;}
+#kishimoto{position:absolute;top:365.425635766515px; left:1102.25331827441px;}
+#mino{position:absolute;top:479.824836311813px; left:1030.95677805675px;}
+#umeda{position:absolute;top:565.266306596758px; left:896.406437332008px;}
+#yoshikawa{position:absolute;top:607.180970016932px; left:721.545185713745px;}
+
+
+/* プロフィール写真の形式 */
+.picture{border-radius: 100%; border: 5px solid white; padding: 20px;}
+
+/* hidecontentsのスタイル */
+.hider{color:white; font-size:50px; position:absolute; left:0px; top:0px;}
+#firstmessage{display:none;position:relative;top:50px;left:10px;font-family:Arial Black;}
+#secondmessage{display:none;position:relative;top:170px;left:150px;font-family:Arial Black;}
+#thirdmessage{display:none;position:relative;top:290px;left:290px;font-family:Arial Black;}
