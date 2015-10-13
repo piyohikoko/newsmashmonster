@@ -1,3 +1,8 @@
+@font-face {
+      font-family: 'pkmn_r';
+      src: url('/assets/pkmn_r.woff');
+}
+
 body{
     background-color: black;
 }
@@ -14,7 +19,7 @@ body{
 
 /* タイトルのスタイル */
 .title{position: absolute; left: 0px; top: 250px; color: white; font-size: 100px; font-family: Impact,Charcoal;}
-#ichi{font-size: 150px; font-style: oblique;}
+#ichi{font-size: 150px; font-style: oblique; font-family: pkm_r;}
 #ni{position: relative; left: 380px; top: -80px; font-size: 150px; font-style: oblique;}
 #first{font-size:250px; color:red; display:none ; font-style: oblique; font-family: Impact,Charcoal }
 .extra{font-size:30px; position: absolute; left: 20px; top: 300px; font-family:Arial Black;}
@@ -42,3 +47,8 @@ body{
 #firstmessage{display:none;position:relative;top:50px;left:10px;font-family:Arial Black;}
 #secondmessage{display:none;position:relative;top:170px;left:150px;font-family:Arial Black;}
 #thirdmessage{display:none;position:relative;top:290px;left:290px;font-family:Arial Black;}
+
+/* game/gameのhtml */
+.game{
+    color:red; font-family: pkmn_r ; font-size: 100px;
+}

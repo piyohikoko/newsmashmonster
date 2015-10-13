@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   }
   root to: "home#index"  # 追記した
   get 'home/index'  # rails g controllerで作られた
+  get 'game/game'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
